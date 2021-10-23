@@ -32,16 +32,22 @@
         </header>
 
         <main>
+        <!--Hero Section-->
+        <secion class="hero-area">
+            <h2></h2>
+            <p>Photo by <a href="https://unsplash.com/@alexacea?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexandru Acea</a> on <a href="https://unsplash.com/@rebal_s/likes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </p>
+        </secion>
         <!--About Section-->
             <section id="about">
-                <div>
+                <div class="content-wrapper">
                     <h2>About</h2>
-                    <div>
+                    <div class="profile-picture">
                         <img src="img/avatar.png" alt="Avatar Profile"/>
                         <h3>Reba Smith</h3>
                         <h3>Front End Developer</h3>
                     </div>
-                    <div>
+                    <div class="profile-bio">
                         <h4>A little about me.</h4>
                         <p>Born and raised in Arkansas. I received my Bachelor of Business Administration from the University of Central Arkansas and my Master of Fine Arts from Academy of Art University. Before the decision to transition into a tech career, I have been working in the retail industry for 10 years. 
                             <br>Looking for a career change, an opportunity came to take a coding camp with Skillcrush. In the camp, I had a spark of inspiration, immediate interest, and desire to pursue a career in tech. 
@@ -53,8 +59,15 @@
 
         <!--Skills Section-->
             <section id="skills">
-                <div>
-                    <div>
+
+                <div class="content-wrapper">
+                    <div class="skills-info">
+                        <img src="img/joshuaunsplash.jpg" alt="Photo by Joshua Reddekopp"/>
+                        <p>Photo by <a href="https://unsplash.com/@joshuaryanphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joshua Reddekopp</a> on <a href="https://unsplash.com/@rebal_s/likes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                        </p>
+                    </div>
+
+                    <div class="skills-info">
                         <h2>Skills</h2>
                         <ol>
                             <li>HTML5</li>
@@ -68,7 +81,8 @@
                             <li>JSX</li>
                         </ol>
                     </div>
-                    <div>
+
+                    <div class="tools-info">
                         <h2>Tools</h2>
                         <ol>
                             <li>Text editor</li>
@@ -83,110 +97,127 @@
             </section>
 
         <!--Projects Section-->
-            <section id="projects">
-                <div>
-                    <h2>Projects</h2>
-                    <div>
-                        <a href="https://rebals.github.io/Jubilee-Austen-Project/" target="_blank"><img src="img/jubilee.png" alt="Jubilee Austen Portfolio"/></a>
-                        <div>
+            <section id="portfolio">
+                <div class="content-wrapper">
+                    <h2>Portfolio</h2>
+                    
+                    <article>
+                        <div class="portfolio-project">
                             <h3>Jubilee Austen Portfolio</h3>
-                            <p>A single-page website showcasing the client talents.
-                            <br><strong>Skills</strong>:
-                                <ol>
-                                    <li>HTML5</li>
-                                    <li>CSS3</li>
-                                    <li>FTP & Web hosting</li>
-                                </ol>
-                            <br><strong>Tools</strong>:
-                                <ol>
-                                    <li>FTP client</li>
-                                    <li>Photoshop</li>
-                                    <li>Text editor</li>
-                                </ol>
-                            </p>
+                                <figure>
+                                    <a href="https://rebals.github.io/Jubilee-Austen-Project/" target="_blank"><img src="img/jubilee.png" alt="Jubilee Austen Portfolio"/></a>
+                                 </figure>                       
+                            <div class="project-description">                                
+                                <p>A single-page website showcasing the client talents.</p>                                
+                                    <h4>Skills</h4>
+                                        <ol>
+                                            <li>HTML5</li>
+                                            <li>CSS3</li>
+                                            <li>FTP & Web hosting</li>
+                                        </ol>
+                                    <h4>Tools</h4>
+                                        <ol>
+                                            <li>FTP client</li>
+                                            <li>Photoshop</li>
+                                            <li>Text editor</li>
+                                        </ol>                      
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <img src="img/unplugged.png" alt="Unplugged Retreat" />
-                        <div>
-                            <h3>Unplugged Retreat</h3>                       
-                            <p>A 3-page responsive website from a design comp that adapts to mobile, table, and desktop screens.
-                            <br><strong>Skills</strong>: 
-                                <ol>
-                                    <li>HTML5</li>
-                                    <li>CSS3</li>
-                                    <li>Responsive typographyF</li>
-                                    <li>Flexbox</li>
-                                    <li>Media Queries</li>
-                                </ol>
-                            <br><strong>Tools</strong>: 
-                                <ol>
-                                    <li>Text editor</li>
-                                    <li>Photoshop</li>
-                                    <li>GitHub</li>
-                                </ol>
-                            </p>
-                        </div>    
-                    </div>
-                    <div>
-                        <div>
-                            <a href="https://rebals.github.io/guess-the-word/" target="_blank"><img src="img/guess.png" alt="Guess the Word" /></a>
-                            <div>
-                                <h3>Guess the Word</h3>                       
-                                <p>Players guess the word by entering one letter at a time. If the player guesses all the letters correctly before they use up their allotted guesses, they win!
-                                <br><strong>Skills</strong>: 
+                    </article>
+                    
+                    <article>
+                        <div class="portfolio-project">
+                            <h3>Unplugged Retreat</h3>
+                            <figure>
+                                <a href="https://rebals.github.io/Unplugged-Retreat/" target="_blank"><img src="img/unplugged.png" alt="Unplugged Retreat" /></a>
+                            </figure>
+                            <div class="project-description">                                                   
+                                <p>A 3-page responsive website from a design comp that adapts to mobile, table, and desktop screens.</p>
+                                <h4>Skills</h4>
+                                    <ol>
+                                        <li>HTML5</li>
+                                        <li>CSS3</li>
+                                        <li>Responsive typographyF</li>
+                                        <li>Flexbox</li>
+                                        <li>Media Queries</li>
+                                    </ol>
+                                <h4>Tools</h4> 
+                                    <ol>
+                                        <li>Text editor</li>
+                                        <li>Photoshop</li>
+                                        <li>GitHub</li>
+                                    </ol> 
+                            </div>    
+                        </div>
+                    </article>
+
+                    <article>
+                        <div class="portfolio-project">
+                            <h3>Guess the Word</h3> 
+                            <figure>
+                                <a href="https://rebals.github.io/guess-the-word/" target="_blank"><img src="img/guess.png" alt="Guess the Word" /></a>
+                            </figure>
+                            <div class="project-description">                                                          
+                                <p>Players guess the word by entering one letter at a time. If the player guesses all the letters correctly before they use up their allotted guesses, they win!</p>
+                                <h4>Skills</h4>
                                     <ol>
                                         <li>Manipulate the DOM</li>
                                         <li>Vanilla JavaScript</li>                                        
                                     </ol>
-                                <br><strong>Tools</strong>: 
+                                <h4>Tools</h4>
                                     <ol>
                                         <li>CodeSandbox</li>                                        
                                         <li>GitHub</li>
                                     </ol>
-                                </p>
+                            </div>                                                    
+                        </div>
+                    </article>
+
+                    <article>
+                        <div class="portfolio-project">
+                            <h3>Nametag Generator</h3>
+                            <figure>
+                                <a href="https://rr3kq.csb.app/" target="_blank"><img src="img/nametag.png" alt="Nametag Generator"/></a>
+                            </figure>
+                            <div class="project-description">                                                       
+                                <p>Built a name tag generator to create bulk name tags using functional components and ES6 modules</p>                            
+                                <h4>Skills</h4> 
+                                    <ol>
+                                        <li>ES6</li>
+                                        <li>JSX</li>
+                                        <li>Managing data flow</li>                                    
+                                    </ol>
+                                <h4>Tools</h4> 
+                                    <ol>
+                                        <li>CodeSandbox</li>
+                                    </ol>                                
                             </div>    
-                        </div>                        
-                    </div>
-                    <div>
-                        <a href="https://rr3kq.csb.app/" target="_blank"><img src="img/nametag.png" alt="Nametag Generator"/></a>
-                        <div>
-                            <h3>Nametag Generator</h3>                       
-                            <p>
-                            <br><strong>Skills</strong>: 
-                                <ol>
-                                    <li>ES6</li>
-                                    <li>JSX</li>
-                                    <li>Managing data flow</li>                                    
-                                </ol>
-                            <br><strong>Tools</strong>: CodeSandbox                               
-                            </p>
-                        </div>    
-                    </div>
-                    <h4 hidden>View More</h4>
+                        </div>
+                    </article>
+                    
                 </div>
+                <h4 hidden>View More</h4>
             </section>
             
         <!--Contact Section-->
             <footer id="contact">
-                <div>
-                    <div>
+                <div class="content-wrapper">
+                    <div class="contact-info">
                         <h3>Reba Smith</h3>
                         <a href="mailto:rebalsmith85@gmail.com"><img src="img/email_black_24dp.svg" alt="Envelope" id="Envelope"/></a>
                         <a href="mailto:rebalsmith85@gmail.com">rebalsmith85@gmail.com</a>
                     </div>
-                    <div>
+                    <div class="social-icons">
                         <h3>Social Media</h3>
-                            <ul>
-                                <!--Linkedin link-->
-                                <li><a href="https://www.linkedin.com/in/rebasmith09/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                            <!--Linkedin link-->
+                            <p><a href="https://www.linkedin.com/in/rebasmith09/" target="_blank"><i class="fab fa-linkedin"></i></a></p>
 
-                                <!--GitHub Link-->
-                                <li><a href="https://github.com/rebals" target="_blank"><i class="fab fa-github-square"></i></a></li>
-                                
-                                <!--Instagram Link-->
-                                <li hidden><a href=""><i class="fab fa-instagram"></i></a></li>
-                            </ul>
+                            <!--GitHub Link-->
+                            <p><a href="https://github.com/rebals" target="_blank"><i class="fab fa-github-square"></i></a></p>
+                            
+                            <!--Instagram Link-->
+                            <p hidden><a href=""><i class="fab fa-instagram"></i></a></p>
+                        
                     </div>
                 </div>
             </footer>
