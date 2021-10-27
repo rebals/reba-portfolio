@@ -49,6 +49,10 @@ figure{
     margin: 0;
 }
 
+.content-wrapper {
+    margin: 0;
+}
+
 /****** HEADER - FOOTER STYLES******/
 
 /* header*/
@@ -72,13 +76,6 @@ header .content-wrapper {
     margin: 0;
 }
 
-.header-divider {
-    width: 100%;
-    height: 1px;
-    margin: 10px 0 20px 0;
-    background: #5bc0be;
-}
-
 header h1 {
     font-family: 'Roboto Slab', serif;
     font-size: 3em;
@@ -86,28 +83,92 @@ header h1 {
 }
 
 header nav {
-    width: 5%;
+    width: 100%;
     text-transform: uppercase;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-flow: row ;
-
+    flex-flow: row wrap;
 }
 
-header nav ul {
-    
+header nav ul {    
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
+    align-content: center;
 }
 
 header nav ul li {
+    width: 35%;
     font-family: 'Roboto Slab', serif;
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: 600;
+    padding: 10px 0;
+    text-align: center;
 }
 
 /* Hero Area*/
 .hero-area {
-    background-image: url("img/hero.jpg");
+    display: flex;
+
+    flex-flow: row wrap;
+    background: url("../img/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+}
+ 
+.hero-area h2 {
+    font-size: 4.5em;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #152A3E;
+    margin-left: 25px;      
+}
+
+.hero-area p {
+    font-size: .65em;
+    margin-left: 10px;
+    padding-top: 500px;
+}
+
+footer {
+    text-align: center;
+    flex-direction: column;
+}
+
+footer .content-wrapper {
+    width: 55%;
+    margin: 50px 0;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer .contact-info h3 {
+    font-size: 4em;
+    font-weight: 600;
+}
+
+footer .contact-info a {
+    font-size: 2em;
+    width: 10%;
+}
+
+footer .social-icons i {
+    font-size: 5.5em;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .social h3 {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+footer .social-icons {
+display: flex;
+justify-content: center;
 }
