@@ -24,7 +24,7 @@ a {
  
 h2 {
     font-family: 'Roboto Slab', serif;
-    font-size: 3em;
+    font-size: 4em;
     font-weight: 700;
     margin: 0;
 }
@@ -62,10 +62,10 @@ footer {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    background-color: #152A3E;
+    background: #152A3E;
 }
 header {
-    padding: 15px 0;
+    padding: 30px 0;
 }
 
 header .content-wrapper {
@@ -135,6 +135,7 @@ header nav ul li {
 footer {
     text-align: center;
     flex-direction: column;
+  
 }
 
 footer .content-wrapper {
@@ -173,9 +174,75 @@ display: flex;
 justify-content: center;
 }
 
+
+/****** PROJECTS ******/
+
+#portfolio {
+    background: #a2e8dd;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column;
+    width:100%;
+}
+
+#portfolio .content-wrapper {
+    margin: 80px 25px;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-flow: column;
+    color: #152A3E;
+}
+
+#portfolio .content-wrapper h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+#portfolio .portfolio-project {
+   padding: 20px 0 40px 0;
+}
+
+#portfolio .portfolio-project h3 {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin: 6px 0;
+    font-size: 2.4em;
+    font-weight: 500;
+}
+
+#portfolio .portfolio-description {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin: 6px 0;
+    padding-right: 40px;
+    font-size: 2em;
+}
+
+#portfolio .project-skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-flow: row wrap;
+    margin: 15px 0;
+}
+
+/****** SKILLS SECTION ******/
+
+#skills {
+    background: #152A3E;
+    width: 100%;
+}
+
+
 /****** ABOUT SECTION ******/
 #about {
-    background: #152A3E;
+    background: #456990;
     display: flex;
     justify-content: center;
     flex-flow: row;
@@ -183,27 +250,42 @@ justify-content: center;
 }
 
 #about .content-wrapper {
-    margin: 50px 0;
+    margin: 50px 15px;
 }
 
 #about h2 {
     text-align: center;
-    padding-bottom: 30px;
-    font-size: 3em;
+    padding: 60px;
     font-weight: 600;
 }
 
 #about .profile-title {
     padding: 20px;
-    font-size:;
 }
 
 #about .profile-title h3 {
     font-size: 2.3em;
     font-weight: 600;
+    margin: 10px 0;
 }
 
-#about .profile-title h {
+#about .profile-title h4 {
     font-size: 1.5em;
     font-weight: 500;
+    margin: 5px 0;
+}
+
+#about .profile-bio {
+    padding: 20px;
+}
+
+#about .profile-bio h4 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    font-family: 'lato', sans-serif;
+    font-weight: 700;
+}
+
+#about .profile-bio p {
+    line-height: 1.5;
 }
