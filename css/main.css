@@ -194,7 +194,9 @@ justify-content: center;
     width:100%;
     color: #152A3E;
 }
-
+#portfolio .content-wrapper {
+    margin: 25px;
+}
 #portfolio h2 {
     margin: 80px 0 60px 0;
 }
@@ -208,12 +210,12 @@ justify-content: center;
 #portfolio .portfolio-project {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     flex-flow: row wrap;
 }
 
 #portfolio .portfolio-project a {
-    margin: 30px;
+    padding: 30px;
     display:flex;
     justify-content:center; 
 }
@@ -230,9 +232,9 @@ justify-content: center;
 
 #portfolio .portfolio-description {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+    justify-content: left;
+    align-items: left;
+    padding: 0 25px;
 }
 
 
