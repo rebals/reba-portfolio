@@ -257,6 +257,17 @@ justify-content: center;
     width: 100%;
 }
 
+#skills .content-wrapper {
+    width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+.skills-info, .tools-info {
+    width: 100%;
+}
 
 /****** ABOUT SECTION ******/
 #about {
