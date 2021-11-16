@@ -265,10 +265,38 @@ justify-content: center;
 	flex-flow: row wrap;
 }
 
-.skills-info, .tools-info {
+.skills-image {
     width: 100%;
 }
 
+#skills .skills-image p {
+    margin: 0;
+    padding-left: 25px;
+    font-size: .75em;
+}
+
+.skills-info, 
+.tools-info {
+   padding: 25px 0;
+   
+}
+
+.skills-info,
+.tools-info h2 {
+   display:flex;
+   justify-content: center;
+   align-content:center;
+   flex-flow: row wrap;
+}
+
+.list li{
+    display:flex;
+   justify-content: center;
+   align-content:center;
+   flex-flow: row wrap;
+    padding: 5px 5px;
+}
+   
 /****** ABOUT SECTION ******/
 #about {
     background: #456990;
