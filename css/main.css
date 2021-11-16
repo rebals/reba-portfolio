@@ -350,3 +350,27 @@ justify-content: center;
 #about .profile-bio p {
     line-height: 1.5;
 }
+
+@media (min-width: 768px) {
+    /*Tablet styles here*/
+    
+    /**Header-Footer*/
+
+    header {
+        padding: 30px 0;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+  
+    header nav ul li {          
+        font-size: 1.5em;
+        padding: 10px 25px;     
+    }
+}
+
+@media (min-width: 1200px) {
+    /*Desktop styles here*/
+
+}
