@@ -95,7 +95,7 @@ header nav {
 header nav ul {    
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
 }
 
@@ -262,39 +262,43 @@ justify-content: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-flow: row wrap;
-}
-
-.skills-image {
-    width: 100%;
+	flex-flow: column;
 }
 
 #skills .skills-image p {
     margin: 0;
     padding-left: 25px;
-    font-size: .75em;
+    font-size: .65em;
+}
+
+#skills h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    padding: 25px 0;
 }
 
 .skills-info, 
 .tools-info {
-   padding: 25px 0;
-   
+   padding: 25px 0;   
 }
 
-.skills-info,
-.tools-info h2 {
-   display:flex;
-   justify-content: center;
-   align-content:center;
-   flex-flow: row wrap;
+
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap:  wrap;
+    line-height: 2;
+    width: 60%;
+    padding: 0 180px;
 }
 
-.list li{
-    display:flex;
-   justify-content: center;
-   align-content:center;
-   flex-flow: row wrap;
-    padding: 5px 5px;
+.list li {
+    margin: 10px;
+    padding: 0 10px;
+    font-size: 1.5em;
 }
    
 /****** ABOUT SECTION ******/
@@ -307,7 +311,7 @@ justify-content: center;
 }
 
 #about .content-wrapper {
-    margin: 50px 15px;
+    margin: 50px 40px;
 }
 
 #about h2 {
