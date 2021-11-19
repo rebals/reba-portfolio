@@ -455,12 +455,13 @@ justify-content: center;
       
      #portfolio h2 {
         font-size: 2.5em;
+        display: flexbox;
      }
  
      .portfolio-project {
          display: flex;
-         justify-content: ;
-         align-content: ;
+         justify-content: space-around;
+         align-content: space-around;
      }
  
      #portfolio .portfolio-project a {
