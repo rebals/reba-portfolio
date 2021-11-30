@@ -24,7 +24,7 @@ a {
  
 h2 {
     font-family: 'Roboto Slab', serif;
-    font-size: 3.5em;
+    font-size: 2em;
     font-weight: 700;
     margin: 0;
 }
@@ -32,13 +32,13 @@ h2 {
 h3,
 h4 {
     font-family: 'Roboto Slab', serif;
-    font-size: 2.4em;
+    font-size: 1.75em;
     font-weight: 600;
 }
 
 p {
-    font-size: 1.125em;
-    line-height: 1.5;
+    font-size: 1.5em;
+    line-height: 1.285;
 }
 
 img {
@@ -51,12 +51,12 @@ figure{
 }
 
 .content-wrapper {
-    margin: 0;
+   width: 95%;
+   margin: 0 auto;
 }
 
 /****** HEADER - FOOTER STYLES******/
 
-/* header*/
 header,
 footer {
     display: flex;
@@ -64,9 +64,6 @@ footer {
     align-items: center;
     flex-flow: row wrap;
     background: #152A3E;
-}
-header {
-    padding: 30px 0;
 }
 
 header .content-wrapper {
@@ -77,271 +74,74 @@ header .content-wrapper {
     margin: 0;
 }
 
-header h1 {
-    font-family: 'Roboto Slab', serif;
-    font-size: 3em;
-    font-weight: 800;
+header {
+    padding: 40px 0;
 }
 
+header h1 {
+    font-size: 2.25em;
+    font-weight: 900;
+    margin: 0;
+    padding: 10px 0;
+}
 header nav {
-    width: 100%;
+    width: 60%;
+    font-size: 1.125em;
+    font-weight: 700;
     text-transform: uppercase;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-flow: row wrap;
+    flex-flow: row wrap;  
+    padding: 15px 0;
 }
-
-header nav ul {    
+header nav ul {
+    width: 100%;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-content: center;
+    justify-content: space-around;  
 }
-
-header nav ul li {
-    width: 35%;
-    font-family: 'Roboto Slab', serif;
-    font-size: 2em;
-    font-weight: 600;
-    padding: 10px 0;
-    text-align: center;
-}
-
-/* Hero Area*/
-.hero-area {
-    display: flex;
-
-    flex-flow: row wrap;
-    background: url("../img/hero.jpg");
-    background-size: cover;
-    background-position: center;
-    min-height: 500px;
-}
- 
-.hero-area h2 {
-    font-size: 4.5em;
-    line-height: 1.2;
-    font-weight: 600;
-    color: #152A3E;
-    margin: 0;
-    padding: 0 60px;      
-}
-
-.hero-area p {
-    font-size: .65em;
-    margin-left: 60px;
-    padding-top: 500px;
-}
-
-footer {
-    text-align: center;
-    flex-direction: column;
   
+header nav ul li {
+    font-size: 1.125em;
 }
 
 footer .content-wrapper {
-    width: 55%;
-    margin: 50px 0;
+    width: 20%;
+    margin: 50px 0px;  
 }
 
-footer p{
-    margin: 0;
+footer{
+text-align: center;
+flex-direction: column;
 }
 
-footer .contact-info h3 {
-    font-size: 4em;
-}
-
-footer .contact-info a {
-    font-size: 2.5em;
-}
-
-footer .contact-info i {
-    font-size: 2.5em;
+footer p {
+margin: 0;
 }
 
 footer .social-icons i {
-    font-size: 5.5em;
-    padding: 0 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-footer .social {
-    padding: 20px 0;
-}
-footer .social h3 {
-    font-size: 2.5em;
+font-size: 2.25em;
+color: #a2e8dd;
+padding: 0 20px;
 }
 
 footer .social-icons {
 display: flex;
 justify-content: center;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+padding: 0 80px;
 }
-
-
 /****** PROJECTS ******/
 
-#portfolio {
-    background: #a2e8dd;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-flow: row wrap;
-    width:100%;
-    color: #152A3E;
-}
-#portfolio .content-wrapper {
-    margin: 25px;
-}
-#portfolio h2 {
-    margin: 80px 0 30px 0;
-}
 
-#portfolio .content-wrapper h2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}   
-
-#portfolio .portfolio-project a {
-    padding: 30px;
-    display:flex;
-    justify-content:center; 
-}
-
-.portfolio-project h3 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin: 0;
-}
-
-.project-description {
-    display: flex;
-    justify-content:center;
-    align-content: center;
-    padding: 0 40px;
-
-}
-
-.project-skills h4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.project-skills ol {
-    margin-bottom: 40px;
-    padding-bottom: 80px;
-
-}
-.project-skills ol li {
-   display: flex;
-   justify-content: center;
-   align-content: center;
-   flex-flow: row wrap;
-   padding-bottom: 15px;
-}
 /****** SKILLS SECTION ******/
 
-#skills {
-    background: #152A3E;
-    width: 100%;
-}
 
-#skills .content-wrapper {
-    width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: column;
-}
-
-#skills .skills-image p {
-    margin: 0;
-    padding-left: 25px;
-    font-size: .65em;
-}
-
-#skills h2 {
-    display: flex;
-    justify-content: center;
-    padding: 25px 0;
-}
-
-.skills-info, 
-.tools-info {
-   padding: 25px 0;   
-}
-
-
-
-.list {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap:  wrap;
-    line-height: 2;
-    width: 60%;
-    padding: 0 180px;
-}
-
-.list li {
-    margin: 10px;
-    padding: 0 10px;
-    font-size: 1.5em;
-}
    
 /****** ABOUT SECTION ******/
-#about {
-    background: #456990;
-    display: flex;
-    justify-content: center;
-    flex-flow: row;
-    align-content: center;
-}
 
-#about .content-wrapper {
-    margin: 50px 40px;
-}
-
-#about h2 {
-    text-align: center;
-    padding: 60px;
-}
-
-#about .profile-title {
-    padding: 20px;
-}
-
-#about .profile-title h3 {
-    margin: 10px 0;
-}
-
-#about .profile-title h4 {
-    font-size: 1.5em;
-    font-weight: 500;
-    margin: 5px 0;
-}
-
-#about .profile-bio {
-    padding: 20px;
-}
-
-#about .profile-bio h4 {
-    font-size: 1.5em;
-    margin: 10px 0;
-    font-family: 'lato', sans-serif;
-    font-weight: 700;
-}
-
-#about .profile-bio p {
-    line-height: 1.5;
-}
 
 @media (min-width: 768px) {
     /*Tablet styles here*/
@@ -354,137 +154,6 @@ justify-content: center;
 @media (min-width: 1200px) {
     /*Desktop styles here*/
     
-    header,
-    footer {
-        display: flex;
-        justify-content: space-between;
-        align-content: space-between;
-        flex-flow: row nowrap;
-    }
     
-    header {
-        padding: 0 30px;
-    }
-
-    header .content-wrapper {
-        display: flex;
-        justify-content: space-between;
-        align-content: space-between;
-        flex-flow: row nowrap;
-    }
-
-    header h1 {
-        font-size: 1.375em;
-    }
-
-    header nav {
-        width: 18%;        
-        display: flex;
-        justify-content: space-between;
-        align-content: space-between;
-        flex-flow: row nowrap;
-    }
-
-    header nav ul {    
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-between;
-        align-content: space-between;
-    }
-
-    header nav ul li {
-        font-size: 1.175em;
-        padding-left: 90px;
-    }
-
-    .hero-area {      
-        min-height: 800px;
-    }
-     
-    .hero-area h2 {
-        font-size: 6em;
-        padding: 25px 60px;      
-    }
-    
-    .hero-area p {
-        font-size: .85em;
-        padding-top: 600px;
-    }
-
-    footer .content-wrapper {
-        width: 100%;
-        margin: 50px 25px;
-        display: flex;
-        justify-content: space-around;
-        align-content:space-around;
-    }
-    
-    footer p{
-        margin: 0;
-    }
-    
-    footer .contact-info h3 {
-        font-size: 2.5em;
-
-    }
-    
-    footer .contact-info a {
-        font-size: 1.5em;
-
-    }
-    
-    footer .contact-info i {
-        font-size: 1.875em;
-        line-height: 1.5;
-    }
-    
-    footer .social-icons i {
-        font-size: 3.5em;        
-    }
-    
-    footer .social {
-        padding: 10px 25px;
-    }
-    footer .social h3 {
-        font-size: 2em;
-        padding-bottom: 50px;
-    }
-
      /**Project Section**/
-
-    #portfolio .content-wrapper {
-        display: flex;       
-    }
-
-     #portfolio h2 {
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        width: 100%;
-        font-size: 2.5em;
-        margin: 0;
-        padding: 80px 0 40px 0;
-     }
-
-     
-     #portfolio .content-wrapper a {
-         width: 95%;
-     }
-          
-     .portfolio-project h3 {
-         font-size: 1.375em;
-        
-     }    
- 
-     .project-skills h4 {
-         font-size: 1.25em;
-     }
- 
-     .project-skills ol li {        
-        line-height: 1;
-     }
-
-     .project-description {
-         
-     }
 }
