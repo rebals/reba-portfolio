@@ -408,7 +408,7 @@ justify-content: center;
     
     .hero-area p {
         font-size: .85em;
-        padding-top: 800px;
+        padding-top: 600px;
     }
 
     footer .content-wrapper {
@@ -453,43 +453,38 @@ justify-content: center;
      /**Project Section**/
 
     #portfolio .content-wrapper {
-        display: flex;
-        justify-content: space-around;
-        align-content: space-around;
-        margin: 40px;
-    
-        
+        display: flex;       
     }
 
      #portfolio h2 {
         display: flex;
         justify-content: center;
         align-content: center;
-        flex-flow: row wrap;
         width: 100%;
         font-size: 2.5em;
         margin: 0;
-        padding: 60px 0 40px 0;
+        padding: 80px 0 40px 0;
      }
 
      
      #portfolio .content-wrapper a {
-         width: 100%;
+         width: 95%;
      }
-     
-     .portfolio-project {
-         padding: 80px 0;
-     } 
-  
+          
      .portfolio-project h3 {
-         font-size: 1.875em;
+         font-size: 1.375em;
+        
      }    
  
      .project-skills h4 {
-         font-size: 1.6em;
+         font-size: 1.25em;
      }
  
      .project-skills ol li {        
         line-height: 1;
+     }
+
+     .project-description {
+         
      }
 }
