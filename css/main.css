@@ -24,9 +24,10 @@ a {
  
 h2 {
     font-family: 'Roboto Slab', serif;
-    font-size: 2em;
+    font-size: 4em;
     font-weight: 700;
     margin: 0;
+    color: #5BC0BE;
 }
 
 h3,
@@ -51,7 +52,7 @@ figure{
 }
 
 .content-wrapper {
-   width: 95%;
+   width: 90%;
    margin: 0 auto;
 }
 
@@ -79,11 +80,13 @@ header {
 }
 
 header h1 {
+    font-family: 'Roboto Slab', serif;
     font-size: 2.25em;
-    font-weight: 900;
+    font-weight: 800;
     margin: 0;
     padding: 10px 0;
 }
+
 header nav {
     width: 60%;
     font-size: 1.125em;
@@ -119,6 +122,11 @@ footer p {
 margin: 0;
 }
 
+footer .contact-info i {
+    font-size: 2em;
+    padding: 0 0 10px 0;
+}
+
 footer .social-icons i {
 font-size: 2.25em;
 color: #a2e8dd;
@@ -128,11 +136,30 @@ padding: 0 20px;
 footer .social-icons {
 display: flex;
 justify-content: center;
-border-radius: 50%;
 width: 40px;
 height: 40px;
 padding: 0 80px;
 }
+
+/*** Hero Area ***/
+.hero-area {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background: url("../img/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+}
+
+.hero-area h1 {
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    font-size:  2.25em;  
+    line-height: 1.2;
+    font-weight: 600;
+    margin: -20px 0px 0px 0px;
+  }
+
 /****** PROJECTS ******/
 
 
