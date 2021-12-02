@@ -24,10 +24,10 @@ a {
  
 h2 {
     font-family: 'Roboto Slab', serif;
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 700;
     margin: 0;
-    color: #5BC0BE;
+    color: #a2e8dd;
 }
 
 h3,
@@ -152,11 +152,13 @@ padding: 0 80px;
     min-height: 600px;
 }
 
-.hero-area h1 {
-    font-family: 'Poppins',Arial, Helvetica, sans-serif;
-    font-size:  2.25em;  
+.hero-area h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size:  5.3em;  
     line-height: 1.2;
-    font-weight: 600;    
+    font-weight: 700;
+    color: #a2e8dd;
+    padding: 25px 0;    
   }
 
 .hero-area p {
@@ -166,6 +168,26 @@ padding: 0 80px;
 
 /****** PROJECTS ******/
 
+#portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5BC0BE;
+    flex-flow: row wrap;
+}
+
+#portfolio .content-wrapper {
+    margin: 15px;
+    padding: 80px 0 30px 0;
+}
+
+#portfolio h2 {
+    display: flex;
+    justify-content: center;    
+    align-content: center;
+    padding-bottom: 20px;
+    color: #152A3E;
+}
 
 /****** SKILLS SECTION ******/
 
