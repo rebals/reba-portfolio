@@ -166,9 +166,21 @@ padding: 0 80px;
     padding-top: 500px;
 }
 
+/*========================
+Homepage Page
+=========================*/
+
+/****** ABOUT SECTION ******/
+
+/****** SKILLS SECTION ******/
+
+/*========================
+Portfolio Page
+=========================*/
+   
 /****** PROJECTS ******/
 
-#portfolio {
+.portfolio {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,24 +188,18 @@ padding: 0 80px;
     flex-flow: row wrap;
 }
 
-#portfolio .content-wrapper {
+.portfolio .content-wrapper {
     margin: 15px;
     padding: 80px 0 30px 0;
 }
 
-#portfolio h2 {
+.portfolio h2 {
     display: flex;
     justify-content: center;    
     align-content: center;
     padding-bottom: 20px;
     color: #152A3E;
 }
-
-/****** SKILLS SECTION ******/
-
-
-   
-/****** ABOUT SECTION ******/
 
 
 @media (min-width: 768px) {

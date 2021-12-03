@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title>Reba Smith|Portfolio</title>
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/main.css">
 
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
@@ -21,10 +21,10 @@
                 <div>
                     <nav>
                         <ul>
-                            <li>About</li>
-                            <li>Skills</li>
-                            <li>Projects</li>
-                            <li>Contact</li>
+                            <li><a href="../index.html">About</a></li>
+                            <li><a href="../index.html">Skills</a></li>
+                            <li><a href="/projects.html">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -33,52 +33,51 @@
 
         <main>
         <!--Projects Section-->
-            <section id="portfolio">
-                <div class="content-wrapper">
+            <section class="portfolio">  
+                <div class="content-wrapper">                    
                     <h2>Portfolio</h2>
-                    
                     <article>
                         <div class="portfolio-project">
+                            <figure>
+                                <a href="https://rebals.github.io/Jubilee-Austen-Project/" target="_blank"><img src="../img/jubilee.png" alt="Jubilee Austen Portfolio"/></a>
+                            </figure> 
                             <h3>Jubilee Austen Portfolio</h3>
-                                <figure>
-                                    <a href="https://rebals.github.io/Jubilee-Austen-Project/" target="_blank"><img src="img/jubilee.png" alt="Jubilee Austen Portfolio"/></a>
-                                 </figure>                       
+                                                    
                             <div class="project-description">                                
-                                <p>A single-page website showcasing the client talents.</p>                                
-                                    <h4>Skills</h4>
-                                        <ol>
-                                            <li>HTML5</li>
-                                            <li>CSS3</li>
-                                            <li>FTP & Web hosting</li>
-                                        </ol>
-                                    <h4>Tools</h4>
-                                        <ol>
-                                            <li>FTP client</li>
-                                            <li>Photoshop</li>
-                                            <li>Text editor</li>
-                                        </ol>                      
+                                <p>In this project, a single-page website was created to showcase the client talents.</p>                                
+                            </div>
+                            <div class="project-skills">
+                                <h4>Skills/Tools</h4>
+                                    <ol>
+                                        <li>HTML5</li>
+                                        <li>CSS3</li>
+                                        <li>FTP & Web hosting</li>                                
+                                        <li>FTP client</li>
+                                        <li>Photoshop</li>
+                                        <li>Text editor</li>
+                                    </ol>                      
                             </div>
                         </div>
                     </article>
                     
                     <article>
                         <div class="portfolio-project">
-                            <h3>Unplugged Retreat</h3>
                             <figure>
-                                <a href="https://rebals.github.io/Unplugged-Retreat/" target="_blank"><img src="img/unplugged.png" alt="Unplugged Retreat" /></a>
+                                <a href="https://rebals.github.io/unplugged-retreat/" target="_blank"><img src="../img/unplugged.png" alt="Unplugged Retreat" /></a>
                             </figure>
+                            <h3>Unplugged Retreat</h3>
+                            
                             <div class="project-description">                                                   
                                 <p>A 3-page responsive website from a design comp that adapts to mobile, table, and desktop screens.</p>
-                                <h4>Skills</h4>
+                            </div>
+                            <div class="project-skills">
+                                <h4>Skills/Tools</h4>
                                     <ol>
                                         <li>HTML5</li>
                                         <li>CSS3</li>
-                                        <li>Responsive typographyF</li>
+                                        <li>Responsive typography</li>
                                         <li>Flexbox</li>
-                                        <li>Media Queries</li>
-                                    </ol>
-                                <h4>Tools</h4> 
-                                    <ol>
+                                        <li>Media Queries</li>                                
                                         <li>Text editor</li>
                                         <li>Photoshop</li>
                                         <li>GitHub</li>
@@ -89,19 +88,19 @@
 
                     <article>
                         <div class="portfolio-project">
-                            <h3>Guess the Word</h3> 
                             <figure>
-                                <a href="https://rebals.github.io/guess-the-word/" target="_blank"><img src="img/guess.png" alt="Guess the Word" /></a>
+                                <a href="https://rebals.github.io/guess-the-word/" target="_blank"><img src="../img/guess.png" alt="Guess the Word" /></a>
                             </figure>
+                            <h3>Guess the Word</h3> 
+                        
                             <div class="project-description">                                                          
                                 <p>Players guess the word by entering one letter at a time. If the player guesses all the letters correctly before they use up their allotted guesses, they win!</p>
-                                <h4>Skills</h4>
+                            </div>
+                            <div class="project-skills">
+                                <h4>Skills/Tools</h4>
                                     <ol>
                                         <li>Manipulate the DOM</li>
-                                        <li>Vanilla JavaScript</li>                                        
-                                    </ol>
-                                <h4>Tools</h4>
-                                    <ol>
+                                        <li>Vanilla JavaScript</li>                        
                                         <li>CodeSandbox</li>                                        
                                         <li>GitHub</li>
                                     </ol>
@@ -111,40 +110,39 @@
 
                     <article>
                         <div class="portfolio-project">
-                            <h3>Nametag Generator</h3>
                             <figure>
-                                <a href="https://rr3kq.csb.app/" target="_blank"><img src="img/nametag.png" alt="Nametag Generator"/></a>
+                                <a href="https://rr3kq.csb.app/" target="_blank"><img src="../img/nametag.png" alt="Nametag Generator"/></a>
                             </figure>
+                            <h3>Nametag Generator</h3>
+                            
                             <div class="project-description">                                                       
                                 <p>Built a name tag generator to create bulk name tags using functional components and ES6 modules</p>                            
-                                <h4>Skills</h4> 
+                            </div>
+                            <div class="project-skills">
+                                <h4>Skills/Tools</h4> 
                                     <ol>
                                         <li>ES6</li>
                                         <li>JSX</li>
-                                        <li>Managing data flow</li>                                    
-                                    </ol>
-                                <h4>Tools</h4> 
-                                    <ol>
+                                        <li>Managing data flow</li>                             
                                         <li>CodeSandbox</li>
                                     </ol>                                
                             </div>    
                         </div>
-                    </article>
-                    
-                </div>
-                <h4 hidden>View More</h4>
+                    </article>                    
+                </div>            
             </section>
             
         <!--Contact Section-->
             <footer id="contact">
                 <div class="content-wrapper">
                     <div class="contact-info">
-                        <h3>Reba Smith</h3>
-                        <a href="mailto:rebalsmith85@gmail.com"><img src="img/email_black_24dp.svg" alt="Envelope" id="Envelope"/></a>
+                        <h3>Contact</h3>
+                        <p><a href="mailto:rebalsmith85@gmail.com"><i class="far fa-envelope"></i></a></p>
                         <a href="mailto:rebalsmith85@gmail.com">rebalsmith85@gmail.com</a>
                     </div>
-                    <div class="social-icons">
+                    <div class="social">
                         <h3>Social Media</h3>
+                        <div class="social-icons">
                             <!--Linkedin link-->
                             <p><a href="https://www.linkedin.com/in/rebasmith09/" target="_blank"><i class="fab fa-linkedin"></i></a></p>
 
@@ -153,7 +151,7 @@
                             
                             <!--Instagram Link-->
                             <p hidden><a href=""><i class="fab fa-instagram"></i></a></p>
-                        
+                        </div>
                     </div>
                 </div>
             </footer>
