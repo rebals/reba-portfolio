@@ -24,7 +24,7 @@ a {
  
 h2 {
     font-family: 'Roboto Slab', serif;
-    font-size: 3em;
+    font-size: 3.25em;
     font-weight: 700;
     margin: 0;
     color: #a2e8dd;
@@ -158,7 +158,7 @@ padding: 0 120px;
     line-height: 1.2;
     font-weight: 700;
     color: #c2f5ed;
-    text-shadow: 10px 10px #152A3E;
+    text-shadow: 8px 10px #152A3E;
     padding: 25px 0;    
   }
 
@@ -248,7 +248,7 @@ Homepage Page
     justify-content: center;
     align-content: center;
     flex-flow: column;
-    padding: 60px 100px;
+    padding: 60px 85px;
     line-height: 2;
 }
 
@@ -278,7 +278,8 @@ Portfolio Page
 
 .portfolio .content-wrapper {
     margin: 15px;
-    padding: 80px 0 30px 0;
+    padding: 60px 0 40px 0;
+    color: #152A3E;
 }
 
 .portfolio h2 {
@@ -287,15 +288,42 @@ Portfolio Page
     align-content: center;
     padding-bottom: 20px;
     color: #152A3E;
+    padding: 0 0 45px 0;
+}
+
+.portfolio p {
+    padding: 0 60px 0 0;
+}
+
+.portfolio-project {
+    border-bottom: 4px dotted #152A3E;
+    padding: 25px 0;
+    
+}
+.project-skills ol{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-flow: row wrap;
+    line-height: 1.5;
+    padding-bottom: 60px;
+}
+
+.project-skills ol li {
+    width: 40%;
+    font-size: 1.5em;
 }
 
 
 @media (min-width: 768px) {
     /*Tablet styles here*/
     
-    /**Header-Footer*/
-
-    
+    /*Her0-Area*/
+    .hero-area {
+        min-height: 500px;
+    }
+    /**Header-Footer**/    
 }
 
 @media (min-width: 1200px) {
