@@ -81,15 +81,15 @@ header {
 
 header h1 {
     font-family: 'Roboto Slab', serif;
-    font-size: 2.25em;
+    font-size: 3em;
     font-weight: 800;
     margin: 0;
     padding: 10px 0;
 }
 
 header nav {
-    width: 60%;
-    font-size: 1.125em;
+    width: 80%;
+    font-size: 2em;
     font-weight: 700;
     text-transform: uppercase;
     display: flex;
@@ -104,10 +104,6 @@ header nav ul {
     justify-content: space-around;  
 }
   
-header nav ul li {
-    font-size: 1.125em;
-}
-
 footer .content-wrapper {
     width: 28%;
     margin: 50px 0px;  
@@ -175,10 +171,7 @@ Homepage Page
 
 #about {
     background: #5BC0BE;
-    display: flex;
-    justify-content: center;
-    flex-flow: row;
-    align-content: center;
+
 }
 
 #about h2 {
@@ -297,7 +290,7 @@ Portfolio Page
     border-bottom: 4px dotted #152A3E;
     width: 100%;
     height: 1px;
-    margin: 10px 0 20px 0;    
+    margin: 25px 0 40px 0;    
 }
 
 .project-skills ol{
@@ -318,16 +311,65 @@ Portfolio Page
 
 @media (min-width: 768px) {
     /*Tablet styles here*/
-    .hero-area h2 {
-        font-size: 4.5em;
-        text-shadow: 4px 4px #152A3E;
-    }
+   
      
 }
 
 @media (min-width: 1200px) {
     /*Desktop styles here*/
+    header .content-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+        flex-flow: row nowrap;
+    }
+
+    header {
+        padding: 20px 0;
+    }
+    header h1 {
+        font-size: 2em;
+    }
+
+    header nav {
+        width: 40%;
+        font-size: 1.25em;
+    }
+
+    footer .content-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+        flex-flow: row wrap;
+        width: 70%;
+    }
     
+    .contact-info {
+        padding-top: 40px;
+    }
+
+    footer h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-flow: row;
+    }
+
+    .hero-area {
+        min-height: 900px;
+    }
+
+    .hero-area h2 {
+        font-size: 8em;
+        text-shadow: 6px 6px #152A3E;
+    }
+    
+    /* About Section*/
+
+    
+    
+    /*Skills Section*/
     
      /**Project Section**/
 }
