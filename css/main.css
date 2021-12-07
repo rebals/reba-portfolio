@@ -311,8 +311,6 @@ Portfolio Page
 
 @media (min-width: 768px) {
     /*Tablet styles here*/
-    
-     
 }
 
 @media (min-width: 1200px) {
@@ -367,16 +365,5 @@ Portfolio Page
 
     .hero-area p {
         font-size: 1em;
-        padding-top: 800px;
     }
-    
-    /* About Section*/
-
-    .profile-title {
-        
-    }
-    
-    /*Skills Section*/
-    
-     /**Project Section**/
 }
