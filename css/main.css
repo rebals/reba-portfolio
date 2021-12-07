@@ -404,7 +404,6 @@ Portfolio Page
         padding: 40px 0px;
     }
 
-
     .profile-bio {
         width: 50%;
         padding: 10px 30px;
@@ -416,4 +415,13 @@ Portfolio Page
         align-content: space-between;
         flex-flow: row wrap;
     }
+
+    .skills-image {
+       display: flex;
+       justify-content: space-between;
+       align-content: space-between;
+       flex-flow: row wrap;
+    }
+
+   
 }
