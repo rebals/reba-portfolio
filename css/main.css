@@ -311,6 +311,7 @@ Portfolio Page
 
 @media (min-width: 768px) {
     /*Tablet styles here*/
+
 }
 
 @media (min-width: 1200px) {
@@ -365,5 +366,22 @@ Portfolio Page
 
     .hero-area p {
         font-size: 1em;
+    }
+
+    /*About Section*/
+
+    #about h2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row nowrap;
+        padding: 40px 80px;
+    }
+    #about .content-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+        flex-flow: row;
     }
 }
