@@ -98,6 +98,7 @@ header nav {
     flex-flow: row wrap;  
     padding: 15px 0;
 }
+
 header nav ul {
     width: 100%;
     display: flex;
@@ -156,7 +157,7 @@ padding: 0 120px;
     color: #c2f5ed;
     text-shadow: 8px 10px #152A3E;
     padding: 25px 0;    
-  }
+}
 
 .hero-area p {
     font-size: .65em;
@@ -171,7 +172,6 @@ Homepage Page
 
 #about {
     background: #5BC0BE;
-
 }
 
 #about h2 {
@@ -410,16 +410,44 @@ Portfolio Page
     }
 
     #skills .content-wrapper {
-        
-    }    
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+        flex-flow: row;
+        margin: 0;
+        padding: 0;
+    }
 
+    #skills ol {
+        padding: 0;
+    }
     #skills ol li {
-        font-size: 1.3em;
+        font-size: 1em;
     }
 
     #skills h2 {
-        font-size: 2.4em;
+        font-size: 2em;
+        padding: 0;
+        line-height: 2;
     }
+
+    .skills-image {
+       width: 64%;
+       display: flex;
+    }
+
+    .skills-image p {
+        font-size: .45em;
+        bottom: 1.5px;
+    }
+
+    .skills-info,
+    .tools-info  {
+        padding: 25px 15px;
+        line-height: 1.2;
+    }
+
+    /*Portfolio Page*/
 
    
 }
