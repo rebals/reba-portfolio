@@ -235,23 +235,21 @@ Homepage Page
    font-size: 1.5em;
 }
 
+.skills-image {
+    position: relative;
+    text-align: left;
+} 
+ 
 .skills-image p {
-    line-height: 0;
-    font-size: .75em;
-    padding: 0 40px;
-}
-
-
-.skills-image p {
-    line-height: 0;
-    font-size: .75em;
-    padding: 0 40px;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: .75em;     
 }
 
 .tools-info {
     padding-bottom: 205px;
 }
-
  
 /*========================
 Portfolio Page
@@ -355,6 +353,7 @@ Portfolio Page
         align-items: center;
         width: 100%;
         flex-flow: row;
+        font-size: 2.5em;
     }
 
     .hero-area {
@@ -379,6 +378,7 @@ Portfolio Page
         align-items: center;
         flex-flow: row nowrap;
         padding: 40px 80px;
+        font-size: 2.5em;
     }
     #about .content-wrapper {
         display: flex;
@@ -410,17 +410,15 @@ Portfolio Page
     }
 
     #skills .content-wrapper {
-        display: flex;
-        justify-content: space-between;
-        align-content: space-between;
-        flex-flow: row wrap;
+        
+    }    
+
+    #skills ol li {
+        font-size: 1.3em;
     }
 
-    .skills-image {
-       display: flex;
-       justify-content: space-between;
-       align-content: space-between;
-       flex-flow: row wrap;
+    #skills h2 {
+        font-size: 2.4em;
     }
 
    
