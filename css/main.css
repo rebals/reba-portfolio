@@ -146,7 +146,7 @@ padding: 0 120px;
     background: url("../img/hero.jpg");
     background-size: cover;
     background-position: center;
-    min-height: 600px;
+    min-height: 7500px;
 }
 
 .hero-area h2 {
@@ -161,7 +161,7 @@ padding: 0 120px;
 
 .hero-area p {
     font-size: .65em;
-    padding-top: 500px;
+    padding-top: 450px;
 }
 
 /*========================
@@ -307,8 +307,40 @@ Portfolio Page
 }
 
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 900px) {
     /*Tablet styles here*/
+
+    /*footer*/
+    footer .content-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+        flex-flow: row wrap;
+        width: 85%;
+    }
+    
+    .contact-info {
+        padding-top: 40px;
+    }
+
+    footer h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-flow: row;
+        font-size: 3em;
+    }
+
+    /*Hero*/
+    .hero-area {
+        min-height: 550px;
+    }
+
+    .hero-area p {
+        padding-top: 250px;
+    }
+    
 
 }
 
@@ -362,7 +394,7 @@ Portfolio Page
 
     .hero-area h2 {
         font-size: 6.5em;
-        text-shadow: 6px 6px #152A3E;
+        text-shadow: 6px 8px #152A3E;
     }
 
     .hero-area p {
@@ -421,8 +453,9 @@ Portfolio Page
     #skills ol {
         padding: 0;
     }
+    
     #skills ol li {
-        font-size: 1em;
+        font-size: 1.25em;
     }
 
     #skills h2 {
@@ -450,5 +483,7 @@ Portfolio Page
 
     /*Portfolio Page*/
 
-   
+   .portfolio h2 {
+       font-size: 2.5em;
+   }
 }
