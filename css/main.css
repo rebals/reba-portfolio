@@ -146,7 +146,7 @@ padding: 0 120px;
     background: url("../img/hero.jpg");
     background-size: cover;
     background-position: center;
-    min-height: 7500px;
+    min-height: 750px;
 }
 
 .hero-area h2 {
@@ -162,6 +162,11 @@ padding: 0 120px;
 .hero-area p {
     font-size: .65em;
     padding-top: 450px;
+    color: #152A3E;
+}
+
+.hero-area a {
+    color: #152A3E;
 }
 
 /*========================
@@ -457,5 +462,12 @@ Portfolio Page
 
    .portfolio h2 {
        font-size: 2.5em;
+   }
+
+   .portfolio article {
+       display: flex;
+       justify-content: space-between;
+       align-content: space-between;
+       flex-flow: row wrap;
    }
 }
